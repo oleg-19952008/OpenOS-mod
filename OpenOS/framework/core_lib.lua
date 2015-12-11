@@ -11,4 +11,4 @@ local W, H = GPU.getResolution()
 GPU.fill(LEFT,RIGHT,X,Y,SYMBOL)
 return
 end
-out.draw_line(2,5,1,8,"|")
+--out.draw_line(2,5,1,8,"|") пример рисования линий
