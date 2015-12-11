@@ -114,7 +114,7 @@ do
     package.preload["computer"] = function() return computer end
     package.preload["filesystem"] = loadfile("/lib/filesystem.lua")
     package.preload["io"] = loadfile("/lib/io.lua")
-	   package.preload["lib"] = loadfile("/lib.lua")
+	   package.preload["lib"] = loadfile("/framework/lib.lua")
     package.preload["unicode"] = function() return unicode end
 
     -- Inject the package and io modules into the global namespace, as in Lua.

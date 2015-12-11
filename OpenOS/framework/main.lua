@@ -10,8 +10,9 @@ ot = out
  end
  ot.wr_l("Get free RAM ?")
  local result = ot.read()
- if result == "y" then 
- require("mem")
+ if result == "y" then  
+local ot =  require("mem")
+out.RAM()
  result = nil
  end
  

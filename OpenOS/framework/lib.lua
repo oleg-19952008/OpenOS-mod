@@ -1,5 +1,6 @@
-  out= {} 
-  require("io")
+out= {}  
+require("io")
+  
 function out.read() 
 local rd = io.read() 
 return rd
@@ -8,11 +9,9 @@ end
  function out.int(int_32)
  -- if int_32 == nil then
  -- i = #int_32
-
  -- i = 0
 local i =1
- local i= int_32 *i
- 
+ local i= int_32 *i 
  print (i)
  return i
  end
